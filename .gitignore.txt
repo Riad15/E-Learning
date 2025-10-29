@@ -1,0 +1,25 @@
+# Ignore Visual Studio cache and temporary files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+# Ignore package directories
+packages/
+*.nupkg
+*.snupkg
+
+# Ignore user-specific files
+*.userprefs
+*.dbmdl
+
+# Ignore publish profiles and local settings
+Properties/PublishProfiles/
+appsettings.*.json
