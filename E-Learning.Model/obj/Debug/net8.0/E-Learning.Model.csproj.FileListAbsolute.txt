@@ -1,0 +1,12 @@
+D:\Ustad\E-Learning\E-Learning.Model\bin\Debug\net8.0\E-Learning.Model.deps.json
+D:\Ustad\E-Learning\E-Learning.Model\bin\Debug\net8.0\E-Learning.Model.dll
+D:\Ustad\E-Learning\E-Learning.Model\bin\Debug\net8.0\E-Learning.Model.pdb
+D:\Ustad\E-Learning\E-Learning.Model\obj\Debug\net8.0\E-Learning.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ustad\E-Learning\E-Learning.Model\obj\Debug\net8.0\E-Learning.Model.AssemblyInfoInputs.cache
+D:\Ustad\E-Learning\E-Learning.Model\obj\Debug\net8.0\E-Learning.Model.AssemblyInfo.cs
+D:\Ustad\E-Learning\E-Learning.Model\obj\Debug\net8.0\E-Learning.Model.csproj.CoreCompileInputs.cache
+D:\Ustad\E-Learning\E-Learning.Model\obj\Debug\net8.0\E-Learning.Model.sourcelink.json
+D:\Ustad\E-Learning\E-Learning.Model\obj\Debug\net8.0\E-Learning.Model.dll
+D:\Ustad\E-Learning\E-Learning.Model\obj\Debug\net8.0\refint\E-Learning.Model.dll
+D:\Ustad\E-Learning\E-Learning.Model\obj\Debug\net8.0\E-Learning.Model.pdb
+D:\Ustad\E-Learning\E-Learning.Model\obj\Debug\net8.0\ref\E-Learning.Model.dll
