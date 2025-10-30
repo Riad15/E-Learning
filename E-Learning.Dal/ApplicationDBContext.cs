@@ -16,5 +16,21 @@ namespace E_Learning.Dal
         }
 
         public DbSet<Student> Students { get; set; }
+        public DbSet<StudentAddress> StudentAddresses { get; set; }
+
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.ApplyConfiguration(new Configuration.StudentConfiguration());
+            modelBuilder.ApplyConfiguration(new Configuration.StudentAddressConfiguration());
+
+        }
     }
+
+    
+
+
 }
