@@ -1,12 +1,20 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using E_Learning.Bll.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace E_Learning.Web.Controllers
 {
     public class StudentController : Controller
     {
+        private readonly StudentService _studentService;
+        public StudentController( StudentService studentService ) { 
+         
+          _studentService = studentService;
+        }
         public IActionResult Index()
         {
-            return View();
+            var students = _studentService.GetAllStudents();
+
+            return View(students);
         }
     }
 }

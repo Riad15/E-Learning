@@ -17,9 +17,9 @@ namespace E_Learning.Bll.Services
             _studentRepository = studentRepository;
         }
 
-        public List<Student> GetAllStudents()
+        public IEnumerable<Student> GetAllStudents()
         {
-            return _studentRepository.GetAllStudents();
+            return _studentRepository.GetAll();
         }
     }
 }

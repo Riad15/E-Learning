@@ -16,7 +16,7 @@ namespace E_Learning.Dal.Repository
             _context = context;
         }
 
-        public List<Student> GetAllStudents()
+       public IEnumerable<Student> GetAll()
         {
             return _context.Students.ToList();
         }
