@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace E_Learning.Model
 {
-    public class Student
+    public class Course
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-
-        public string Email { get; set; }
-
-        public string PhoneNumber { get; set; }
-        public StudentAddress Address { get; set; }
+        public string Title { get; set; }
+        public string Code { get; set; }
+        public int Credits { get; set; }
         public ICollection<Enrollment> Enrollments { get; set; } = new List<Enrollment>();
     }
 }
